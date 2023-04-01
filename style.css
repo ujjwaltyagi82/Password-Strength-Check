@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #2d2d2d;
+  }
+  
+  .background {
+    background: url('https://www.hdwallpapers.in/download/manhattan_new_york_city_night_cityscape_4k_8k-2560x1600.jpg')
+      no-repeat center center/cover;
+    position: absolute;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+    filter: blur(20px) brightness(0.6) contrast(1.2);
+  }
+  
+  .bg-white {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 24px;
+    max-width: 400px;
+    width: 100%;
+  }
+ 
+  
